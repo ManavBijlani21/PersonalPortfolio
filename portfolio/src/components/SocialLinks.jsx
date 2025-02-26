@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "",
+      href: "https://www.linkedin.com/in/manavbijlani/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "",
+      href: "https://github.com/ManavBijlani21",
     },
     {
       id: 3,
@@ -47,6 +47,7 @@ const SocialLinks = () => {
   ];
 
   return (
+    //Can add hidden lg:flex if don't want to display the right menu icons
     <div className="flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
@@ -64,6 +65,7 @@ const SocialLinks = () => {
               download={download}
               //Allows you to open a new tab
               target="_blank"
+              rel = "noreferrer"
             >
               {child}
             </a>
