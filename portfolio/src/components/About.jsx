@@ -27,7 +27,7 @@ const About = () => {
           and AI has driven me to work across multiple projects and internships
           in my past two years at university. In the future, I aspire to become
           a software engineer, contributing to the development of innovative
-          products while continuously enhancing my technical and soft skills.
+          products while continuously enhancing my technical and soft skills. 
         </p>
 
         <br/>
