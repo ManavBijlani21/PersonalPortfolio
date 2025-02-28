@@ -16,15 +16,21 @@ function Home() {
           </h2>
 
           <p className="text-gray-500 py-4 max-w-md">
-            Hello, I'm Manav Bijlani, currently in my third year pursuing a
-            Bachelor's degree in Computer Science at The University of Adelaide.
-            I am a motivated individual with a passion for problem-solving and
-            STEM technologies. I consider myself a lifelong learner, constantly
-            seeking education from various sources and engaging with like-minded
-            tech enthusiasts. In my free time, I enjoy reading non-fiction books
-            and focusing on personal development. My interest in algorithmic
-            coding and AI has driven me to work across multiple projects and
-            internships in my past two years at university.
+          I have 8 years of experience building and desgining software.
+          Currently, I love to work on web application using technologies like
+          React, Tailwind, Next JS and GraphQL.
+
+          I have 8 years of experience building and desgining software.
+          Currently, I love to work on web application using technologies like
+          React, Tailwind, Next JS and GraphQL.
+
+          I have 8 years of experience building and desgining software.
+          Currently, I love to work on web application using technologies like
+          React, Tailwind, Next JS and GraphQL.
+
+          I have 8 years of experience building and desgining software.
+          Currently, I love to work on web application using technologies like
+          React, Tailwind, Next JS and GraphQL.
           </p>
 
           <div>
