@@ -41,8 +41,7 @@ function Home() {
               </span>
             </Link>
           </div>
-        </div> // Add closing tag for the div element
-
+        </div> 
         <div>
           <img
             src={HeroImage}
@@ -50,7 +49,7 @@ function Home() {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-      </div> // Add closing tag for the div element
+      </div> 
     </div>
   );
 }
