@@ -5,12 +5,14 @@ const About = () => {
     <div
     name = "about"
     className = "w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
-      <div className = "max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className = "max-w-screen-lg pl-4 pr-4 pb-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className = "pb-8">
+          <br>
+          </br>
           <p className = "text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
 
-        <p className = "text-xl mt-20">
+        <p className = "text-xl py-6">
           Hello, I'm Manav Bijlani, currently in my third year pursuing a
           Bachelor's degree in Computer Science at The University of Adelaide. I
           am a motivated individual with a passion for problem-solving and STEM

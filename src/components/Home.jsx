@@ -12,8 +12,9 @@ function Home() {
     const typed = new Typed(el.current, {
       strings: [
         "Full Stack Web Developer",
-        "Software Engineer",
-        "UI / UX Designer",
+        "AI Chatbot Developer",
+        "Lifelong Learner",
+        "Innovative Problem Solver",
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -63,6 +64,7 @@ function Home() {
             className="rounded-2xl mx-auto w-3/4 md:w-full"
           />
         </div>
+
       </div>
     </div>
   );
