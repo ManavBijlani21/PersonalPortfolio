@@ -1,10 +1,10 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 import Experiences from "./components/Experiences";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <Home/>
     <About/>
     <Experiences/>
-    <Portfolio/>
-    <Experience/>
+    <Skills/>
+    <Projects/>
     <Contact/>
     <SocialLinks/>
     </div>
