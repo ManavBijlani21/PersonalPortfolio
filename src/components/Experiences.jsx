@@ -9,11 +9,7 @@ const Experiences = () => {
           title: 'Full Stack Developer Intern',
           company: 'Mira',
           period: 'Nov 2024 - Jan 2025',
-          description: `● Developed a calendar component for Mira’s frontend using Next.js and React.js, implementing features like drag-and-drop, dynamic event management, modal dialogs, and day/month views.
-          
-          ● Designed and implemented RESTful APIs for event management (creation, insertion, deletion, and updates) using Node.js, Express.js, and Supabase.
-          ● Optimized API performance, ensuring efficient database queries and robust error handling, with thorough testing using Insomnia.● Actively contributed to wireframe discussions and infrastructure planning, including authentication, deployment, and future scalability.
-          ● Maintained project tracking in Jira and leveraged Git for version control, ensuring smooth collaboration.● Worked closely with the technical team, effectively communicating updates and providing feedback to enhance development workflows.`,
+          description: `● Developed a calendar component for Mira’s frontend using Next.js and React.js, implementing features like drag-and-drop, dynamic event management, modal dialogs, and day/month views. ● Designed and implemented RESTful APIs for event management (creation, insertion, deletion, and updates) using Node.js, Express.js, and Supabase.● Optimized API performance, ensuring efficient database queries and robust error handling, with thorough testing using Insomnia.● Actively contributed to wireframe discussions and infrastructure planning, including authentication, deployment, and future scalability.● Maintained project tracking in Jira and leveraged Git for version control, ensuring smooth collaboration.● Worked closely with the technical team, effectively communicating updates and providing feedback to enhance development workflows.`,
         },
         {
           title: 'Software Engineer Intern',
@@ -31,9 +27,11 @@ const Experiences = () => {
       
 
   return (
-        <section id="experience" className="bg-gradient-to-b from-black to-gray-800 py-8 text-white">
-          <div className="container mx-auto px-8">
+        <section id="experience" className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white">
+          <div className="max-w-screen-lg pl-4 pr-4 pb-4 mx-auto flex flex-col justify-center w-full h-full">
+            <div className = "pb-8">
             <SectionTitle>Experience</SectionTitle>
+            </div>
             <Timeline items={experiences} />
           </div>
         </section>
@@ -42,7 +40,7 @@ const Experiences = () => {
 
 function SectionTitle({ children }) {
     return (
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
+      <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
         {children}
       </h2>
     );
@@ -61,7 +59,7 @@ function SectionTitle({ children }) {
             
             {/* Timeline Card */}
             <div className="group relative bg-gray-200 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-1">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/10 to-gray-700/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-500/10 to-gray-700/10 rounded-xl opacity-0 group-hover:opacity-300 transition-opacity duration-300 pointer-events-none" />
               
               <div className="relative z-10">
                 <div className="flex items-center gap-2 mb-2">
