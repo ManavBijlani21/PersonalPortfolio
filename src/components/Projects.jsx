@@ -12,42 +12,57 @@ const Projects = () => {
       src: project5,
       name : "Personal Portfolio",
       content : `Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
+      Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
       Integrated Razorpay payment gateway for seamless real payments, ensuring a smooth transaction experience.`,
+      code : "https://github.com/ManavBijlani21/PersonalPortfolio",
+      demo : "manavbijlani-portfolio.netlify.app",
     },
     {
       id: 2,
       src: project1,
-      name : "Personal Portfolio",
+      name : "GreenAgenda",
       content : `Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
+      Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
       Integrated Razorpay payment gateway for seamless real payments, ensuring a smooth transaction experience.`,
+      code : "https://github.com/ManavBijlani21/GreenAgenda",
+      demo : "https://github.com/ManavBijlani21/GreenAgenda/blob/main/README.md",
     },
     {
       id: 3,
       src: project2,
-      name : "Personal Portfolio",
+      name : "Onboarding Assistant",
       content : `Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
+      Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
       Integrated Razorpay payment gateway for seamless real payments, ensuring a smooth transaction experience.`,
+      code : "https://github.com/ManavBijlani21/ForgeHack_Team4",
+      demo : "https://github.com/ManavBijlani21/ForgeHack_Team4/blob/main/README.md",
     },
     {
       id: 4,
       src: project4,
-      name : "Personal Portfolio",
+      name : "TetrisX",
       content : `Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
+      Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
       Integrated Razorpay payment gateway for seamless real payments, ensuring a smooth transaction experience.`,
+      code : "https://github.com/Hussain5001/tetris",
+      demo : "https://github.com/Hussain5001/tetris/blob/main/README.md",
     },
     {
       id: 5,
       src: project3,
-      name : "Personal Portfolio",
+      name : "BlackJack Card Game",
       content : `Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
+      Developed a full-stack e-commerce platform from scratch using React and Tailwind for UI/UX design.
       Integrated Razorpay payment gateway for seamless real payments, ensuring a smooth transaction experience.`,
+      code : "https://github.com/ManavBijlani21/Blackjack-Game",
+      demo : "https://github.com/ManavBijlani21/Blackjack-Game/blob/main/README.md",
     },
   ];
 
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-20 pt-8"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white pb-20 pt-8"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div classname="pb-8">
@@ -58,7 +73,7 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, name, content }) => (
+          {projects.map(({ id, src, name, content, code, demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -79,10 +94,10 @@ const Projects = () => {
 
               <div className="flex items-center justify-center">
                 {/* Create the onclick variables and fetch the links from portfolios array and open in a new window.  */}
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(demo, "_blank")}>
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(code, "_blank")}>
                   Code
                 </button>
               </div>
