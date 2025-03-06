@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpeg";
+import CoverPhoto from "../assets/coverphoto.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Typed from "typed.js";
@@ -37,9 +37,8 @@ function Home() {
             className="text-4xl sm:text-7xl font-bold text-white"
           >Full Stack Web Developer</h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and designing software.
-            Currently, I love to work on web applications using technologies
-            like React, Tailwind, Next.js, and GraphQL.
+          Hi, I'm Manav, a seasoned software engineer with a passion for software development and AI. I am an excellent problem solver who brings creativity and innovation to everything I do.
+
           </p>
           <div>
             <Link
@@ -59,7 +58,7 @@ function Home() {
         {/* Right Image Container */}
         <div className="w-64 md:w-80 flex-shrink-0">
           <img
-            src={HeroImage}
+            src={CoverPhoto}
             alt="My Profile"
             className="rounded-2xl mx-auto w-3/4 md:w-full"
           />
