@@ -29,9 +29,9 @@ function Home() {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
+      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4 gap-y-6 md:gap-0">
         {/* Left Text Container */}
-        <div className="md:w-[500px] flex flex-col justify-center h-full">
+        <div className="md:w-[500px] flex flex-col justify-center">
           <h2
             ref={el}
             className="text-4xl sm:text-7xl font-bold text-white"
@@ -42,12 +42,12 @@ function Home() {
           </p>
           <div>
             <Link
-              to="portfolio"
+              to="experience"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Portfolio
+              Experience
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
