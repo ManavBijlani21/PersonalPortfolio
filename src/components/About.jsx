@@ -13,30 +13,24 @@ const About = () => {
         </div>
 
         <p className = "text-xl py-6">
-          Hello, I'm Manav Bijlani, currently in my third year pursuing a
+          Hello, I'm Manav Bijlani, currently in my final year pursuing a
           Bachelor's degree in Computer Science at The University of Adelaide. I
-          am a motivated individual with a passion for problem-solving and STEM
-          technologies. I consider myself a lifelong learner, constantly seeking
-          education from various sources and engaging with like-minded tech
-          enthusiasts. In my free time, I enjoy reading non-fiction books and
-          focusing on personal development.
+          am a motivated individual with a passion for problem-solving, software development and AI. 
+          I consider myself a lifelong learner, constantly seeking knowledge from various sources and engaging with like-minded tech enthusiasts. 
         </p> 
 
         <br/>
 
         <p className = "text-xl">
-          My interest in algorithmic coding
-          and AI has driven me to work across multiple projects and internships
-          in my past two years at university. In the future, I aspire to become
-          a software engineer, contributing to the development of innovative
-          products while continuously enhancing my technical and soft skills. 
+        With over 2 years of experience in the software industry, I have a proven ability to quickly adapt to new technologies, with a solid 
+        background in modern software development practices, version control, AI chatbot delivery, and both frontend and backend web development. 
+        I consistently deliver robust, scalable, and user-friendly solutions tailored to meet diverse business needs.
         </p>
 
         <br/>
 
         <p className = "text-xl">
-        I love connecting with new people and currently looking for
-        opportunities in the software development space, so feel free to reach out.
+        In my free time, I enjoy reading non fiction books and focusing on personal development. 
         </p>
 
         <br/>
