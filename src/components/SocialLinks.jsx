@@ -48,7 +48,7 @@ const SocialLinks = () => {
 
   return (
     //Can add hidden lg:flex if don't want to display the right menu icons
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
