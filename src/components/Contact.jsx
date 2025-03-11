@@ -11,7 +11,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className = "py-6">I'm open to opportunities and look forward to connecting with you. We could develop software together, chat about your products or imagine how I can boost your team. I'd love to hear from you!</p>
+          <p className = "py-6">I'm open to opportunities in software development and AI and look forward to connecting with you!</p>
         </div>
 
         <div className="flex justify-center items-center">
