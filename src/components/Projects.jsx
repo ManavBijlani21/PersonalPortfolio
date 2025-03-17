@@ -15,7 +15,7 @@ const Projects = () => {
       Created a smooth, engaging user experience by implementing custom animations, smooth scrolling, and leveraging Tailwind's grid and flexbox layouts, enhancing visual appeal, interactivity, and content organization, while maintaining a focus on usability and performance. 
       Demonstrated strong version control and collaboration skills by managing the project with Git and hosting the website on Netlify, deploying production-level code for seamless access and performance.`,
       code : "https://github.com/ManavBijlani21/PersonalPortfolio",
-      demo : "manavbijlani-portfolio.netlify.app",
+      demo : "https://manavbijlani-portfolio.netlify.app/",
     },
     {
       id: 2,
