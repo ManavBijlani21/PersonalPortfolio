@@ -4,6 +4,7 @@ import project2 from "../assets/portfolio/project_2.png";
 import project3 from "../assets/portfolio/project_3.png";
 import project4 from "../assets/portfolio/project_4.png";
 import project5 from "../assets/portfolio/project_5.png";
+import project6 from "../assets/portfolio/project_6.png";
 
 const Projects = () => {
   const projects = [
@@ -29,6 +30,16 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: project6,
+      name : "Real Estate Price Prediction Model",
+      content : `Developed a machine learning model using Sklearn and linear regression to predict real estate prices with 82% accuracy, based on area, BHK, bathrooms, and location inputs This involved extensive data preprocessing with Pandas and NumPy to ensure model accuracy.
+      Deployed the model on AWS EC2, creating a scalable production environment, and built a Python Flask server to handle HTTP requests for predictions. Nginx was configured to serve the application, demonstrating proficiency in cloud deployment and server management.
+      Designed a user friendly web interface with HTML, CSS, and JavaScript, enabling users to easily input property details and receive price estimations.`,
+      code : "https://github.com/ManavBijlani21/Real-Estate-Price-Prediction",
+      demo : "https://github.com/ManavBijlani21/Real-Estate-Price-Prediction/blob/main/README.md",
+    },
+    {
+      id: 4,
       src: project2,
       name : "Onboarding Assistant",
       content : `Spearheaded the development of the Smart Onboarding Assistant, leveraging Atlassian Forge to seamlessly integrate an AI-powered ROVO Agent into Jira and Confluence, enhancing the onboarding process for new developers by automating task prioritization and information retrieval. 
@@ -38,7 +49,7 @@ const Projects = () => {
       demo : "https://github.com/ManavBijlani21/ForgeHack_Team4/blob/main/README.md",
     },
     {
-      id: 4,
+      id: 5,
       src: project4,
       name : "TetrisX",
       content : `Built TetrisX, an innovative C++ game leveraging object-oriented programming (OOP) principles such as inheritance and polymorphism to dynamically manage block manipulation, ensuring efficient and scalable game logic.
@@ -48,7 +59,7 @@ const Projects = () => {
       demo : "https://github.com/Hussain5001/tetris/blob/main/README.md",
     },
     {
-      id: 5,
+      id: 6,
       src: project3,
       name : "BlackJack Card Game",
       content : `Created a multiplayer Blackjack game using Python, leveraging Object-Oriented Programming principles to ensure scalability, maintainability, and seamless gameplay across multiple sessions.

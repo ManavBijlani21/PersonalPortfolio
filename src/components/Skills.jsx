@@ -28,6 +28,8 @@ import forge from "../assets/forge.png";
 import docker from "../assets/docker.png";
 import gcp from "../assets/googlecloud.png";
 import mongodb from "../assets/mongodb.png";
+import flask from "../assets/flask.png";
+import aws from "../assets/aws.png";
 
 
 const Skills = () => {
@@ -94,6 +96,12 @@ const Skills = () => {
       src: express,
       title: "Express JS",
       style: "shadow-yellow-500",
+    },
+    {
+      id: 3,
+      src: flask,
+      title: "Flask",
+      style: "shadow-gray-500",
     },
   ];
 
@@ -220,6 +228,12 @@ const Skills = () => {
       src: forge,
       title: "Atlassian Forge",
       style: "shadow-purple-500",
+    },
+    {
+      id: 4,
+      src: aws,
+      title: "Amazon Web Services",
+      style: "shadow-yellow-500",
     },
   ];
 
