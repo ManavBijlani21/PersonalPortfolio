@@ -6,6 +6,12 @@ const Experiences = () => {
 
     const experiences = [
         {
+          title: 'Software Developer Intern',
+          company: 'Deep Liquid',
+          period: 'May 2025 - June 2025',
+          description: `● Contributed to ideation and research on Agentic AI and automation tools for video editing, marketing, and advertising platforms. ● Explored the integration of RAG (Retrieval Augmented Generation) and vector embedding models in systems such as smart library management tools. ● Participated in agile scrum meetings, brainstorming AI powered features to enhance existing applications and streamline user interactions. ● Assisted in preparing and cleaning real-time user data for AI training pipelines, helping reduce anomalies and improve data quality. ● Contributed to R&D for a personalised nutrition solution by analysing API integration with LLMs to recommend protein shake recipes in a vending machine setup. ● Gained hands on experience with tools like Make (for building Agentic AI flows), Hippo, and ChatGPT APIs for rapid prototyping.`,
+        },
+        {
           title: 'Full Stack Developer Intern',
           company: 'Mira',
           period: 'Nov 2024 - Jan 2025',
